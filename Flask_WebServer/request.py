@@ -17,7 +17,22 @@ columns = a.split(",")
 
 b = "0,0,0,0,1,0,0.2,0.2,0,0,Feb,1,1,1,1,Returning_Visitor,FALSE"
 val = b.split(",")
+
+if val[16] == "FALSE":
+    val[16] = False
+else: 
+    val[16] = True
+
 df = pd.DataFrame([val],columns=columns)
+
+for col in df.columns[:6]:
+    df[col] = df[col].astype('int64')
+for col in df.columns[6:8]:
+    df[col] = df[col].astype('float64')
+for col in df.columns[8:10]:
+    df[col] = df[col].astype('int64')
+for col in df.columns[11:15]:
+    df[col] = df[col].astype('int64')
 
 df = ohe.transform(df)
 df = scaler.transform(df)
