@@ -12,10 +12,17 @@ with open('column_trans.pickle', 'rb') as f_onehotenc:
 with open('scaler.pickle', 'rb') as f_scaler:
     scaler = p.load(f_scaler) # OneHotEncoder object that was used in training
 
-df = pd.read_csv("request.csv")
+a ="Administrative,Administrative_Duration,Informational,Informational_Duration,ProductRelated,ProductRelated_Duration,BounceRates,ExitRates,PageValues,SpecialDay,Month,OperatingSystems,Browser,Region,TrafficType,VisitorType,Weekend"
+columns = a.split(",")
+
+b = "0,0,0,0,1,0,0.2,0.2,0,0,Feb,1,1,1,1,Returning_Visitor,FALSE"
+val = b.split(",")
+df = pd.DataFrame([val],columns=columns)
+
 df = ohe.transform(df)
 df = scaler.transform(df)
 df = df.tolist()
+
 j_data = json.dumps(df)
 headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
 r = requests.post(url, data=j_data, headers=headers)
