@@ -1,2 +1,2 @@
-a,d,m,i,n,i,s,t,r,a,t,i,v,e,",",A,d,m,i,n,i,s,t,r,a,t,i,v,e,_,D,u,r,a,t,i,o,n,",",I,n,f,o,r,m,a,t,i,o,n,a,l,",",I,n,f,o,r,m,a,t,i,o,n,a,l,_,D,u,r,a,t,i,o,n,",",P,r,o,d,u,c,t,R,e,l,a,t,e,d,",",P,r,o,d,u,c,t,R,e,l,a,t,e,d,_,D,u,r,a,t,i,o,n,",",B,o,u,n,c,e,R,a,t,e,s,",",E,x,i,t,R,a,t,e,s,",",P,a,g,e,V,a,l,u,e,s,",",S,p,e,c,i,a,l,D,a,y,",",M,o,n,t,h,",",O,p,e,r,a,t,i,n,g,S,y,s,t,e,m,s,",",B,r,o,w,s,e,r,",",R,e,g,i,o,n,",",T,r,a,f,f,i,c,T,y,p,e,",",V,i,s,i,t,o,r,T,y,p,e,",",W,e,e,k,e,n,d
-0,",",0,",",0,",",0,",",1,",",0,",",0,.,2,",",0,.,2,",",0,",",0,",",F,e,b,",",1,",",1,",",1,",",1,",",R,e,t,u,r,n,i,n,g,_,V,i,s,i,t,o,r,",",F,A,L,S,E
+Administrative,Administrative_Duration,Informational,Informational_Duration,ProductRelated,ProductRelated_Duration,BounceRates,ExitRates,PageValues,SpecialDay,Month,OperatingSystems,Browser,Region,TrafficType,VisitorType,Weekend
+0,0,0,0,1,0,0.2,0.2,0,0,Feb,1,1,1,1,Returning_Visitor,FALSE
