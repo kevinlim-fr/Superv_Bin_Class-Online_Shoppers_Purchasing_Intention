@@ -3,6 +3,7 @@ This project is an end of semester project at ESILV, the goal is to analyse a da
 
 # Dataset Presentation
 UCI Online Shoppers Purchasing Intention Dataset Data - https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset
+
 The goal of the dataset analysis is to analyse a set of online shopping session that leads (or not) to a purchase.
 The dataset contain 12 330 session with 10 422 of the session that doesn't lead to a purchase and the rest (1 908) of the sessions leads to a purchase.
 
