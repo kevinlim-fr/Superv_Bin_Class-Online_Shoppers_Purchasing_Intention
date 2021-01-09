@@ -7,7 +7,7 @@ The goal of the dataset analysis is to analyse a set of online shopping session 
 The dataset contain 12 330 session with 10 422 of the session that doesn't lead to a purchase and the rest (1 908) of the sessions leads to a purchase.
 
 # The Classification Problem
-The dataset consists of 10 numerical and 8 categorical attributes. The 'Revenue' attribute is used as class label. The dataset is clean, there is no missing values but it is unbalanced. There is a risk of bias, so the analysis have to take the unbalanced factor into consideration.
+The dataset consists of 10 numerical and 8 categorical attributes. The 'Revenue' attribute is used as class label. The dataset is clean, there are no missing values but the dataset is unbalanced. There is a risk of bias, so the analysis have to take the unbalanced dataset into consideration.
 
 ## Classification algorithms
 I have selected a few Classification algorithm based on the accuracy of the prediction, but also the F-score as the dataset is unbalanced.
