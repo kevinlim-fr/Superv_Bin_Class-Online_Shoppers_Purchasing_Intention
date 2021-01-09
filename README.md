@@ -10,7 +10,7 @@ The dataset contain 12 330 session with 10 422 of the session that doesn't lead 
 The dataset consists of 10 numerical and 8 categorical attributes. The 'Revenue' attribute is used as class label. The dataset is clean, there is no missing values but it is unbalanced. There is a risk of bias, so the analysis have to take the unbalanced factor into consideration.
 
 ## Classification algorithms
-I have selected a few Classification algorithm based on the accuracy of the prediction, but also the f statistics as the dataset is unbalanced.
+I have selected a few Classification algorithm based on the accuracy of the prediction, but also the F-score as the dataset is unbalanced.
 I performed a comparison of 9 Classification algorithm. (Naive Bayes, Logistic Regression, K Nearest Neighbour, Support Vector Machine, Decision Tree, Stochastic Gradient Descent, Linear Discriminant Analysis, Gradient Boosting, Random Forest)
 
 ## Hyperparameters optimization (Grid Search)
