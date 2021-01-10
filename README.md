@@ -15,8 +15,8 @@ I have selected a few Classification algorithm based on the accuracy of the pred
 I performed a comparison of 9 Classification algorithm. (Naive Bayes, Logistic Regression, K Nearest Neighbour, Support Vector Machine, Decision Tree, Stochastic Gradient Descent, Linear Discriminant Analysis, Gradient Boosting, Random Forest)
 
 ## Hyperparameters optimization (Grid Search)
-Then selected the 4 best performing ones (Gradient Boosting, Stochastic Gradient Descent, Random Forest, Decision Tree) and made 4 grid search to optimise the hyperparameters.
-After the hyperparmeter optimization, I chose to select the 2 best algorithm (Random Forest and Decision Tree) and make a VotingClassifier model for prediction.
+Then selected the 4 best performing ones (Gradient Boosting, Stochastic Gradient Descent, Random Forest, Decision Tree) and made 4 grid searches to optimize the hyperparameters.
+After the hyperparmeter optimization, I chose to select the 3 best algorithm (Random Forest, Decision Tree, Gradient Boosting) and make a VotingClassifier model for prediction.
 
 # API
 I created a rest API that listen to GET request. Any user can predict a Purchase (or Not) by inputing the variable values as listed in the dataset. The API will then answer if this session leads to a Purchase or not.
