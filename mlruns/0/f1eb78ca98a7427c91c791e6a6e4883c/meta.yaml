@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/YKXW7880/WORK/github/Superv_Bin_Class-Online_Shoppers_Purchasing_Intention/mlruns/0/f1eb78ca98a7427c91c791e6a6e4883c/artifacts
+deleted_time: 1682686033725
+end_time: 1682681985666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f1eb78ca98a7427c91c791e6a6e4883c
+run_name: XGBClassifier
+run_uuid: f1eb78ca98a7427c91c791e6a6e4883c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682681979155
+status: 3
+tags: []
+user_id: YKXW7880
