@@ -27,10 +27,9 @@ def main():
     # Create a sidebar menu
     st.sidebar.title("Menu")
     menu_options = ["Home", "Data visualization", "Try predictions"]
-    
-    selected_option = st.sidebar.selectbox("Select Option", menu_options)
 
     # Display content based on the selected option
+    selected_option = st.sidebar.selectbox("Select Option", menu_options)
     if selected_option == "Home":
         show_home()
     elif selected_option == "Data visualization":
@@ -61,10 +60,6 @@ def show_dv():
         msno.matrix(data)
         container.pyplot(plt.gcf())
     st.markdown("### There is no missing data in this dataset.")
-    st.write("##")
-    st.write("##")
-    st.write("##")
-    st.write("##")
     
     # Correlation
     st.markdown("## Corerlation Analysis")
@@ -79,7 +74,6 @@ def show_dv():
         container = st.container()
         container.markdown("There is a high positive correlation between the PageValues and the target (Revenue)")
     
-
     # PCA 
     st.markdown("## Principal Components Analysis")
     col1, col2 = st.columns([2,1])

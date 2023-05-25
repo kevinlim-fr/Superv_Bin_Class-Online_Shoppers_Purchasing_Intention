@@ -1,0 +1,3 @@
+
+with open('artifacts/X_train.pickle', 'rb') as file:
+    X_train = pickle.load(file)
