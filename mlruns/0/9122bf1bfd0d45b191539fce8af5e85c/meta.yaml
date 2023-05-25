@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9122bf1bfd0d45b191539fce8af5e85c/artifacts
+end_time: 1684833450173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9122bf1bfd0d45b191539fce8af5e85c
+run_name: XGBClassifier
+run_uuid: 9122bf1bfd0d45b191539fce8af5e85c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684833445467
+status: 3
+tags: []
+user_id: jupyter

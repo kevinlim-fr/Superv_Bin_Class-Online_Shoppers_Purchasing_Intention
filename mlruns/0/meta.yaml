@@ -1,6 +1,6 @@
-artifact_location: file:///C:/Users/YKXW7880/WORK/github/Superv_Bin_Class-Online_Shoppers_Purchasing_Intention/mlruns/0
-creation_time: 1682599915764
+artifact_location: mlflow-artifacts:/0
+creation_time: 1684832984974
 experiment_id: '0'
-last_update_time: 1682599915764
+last_update_time: 1684832984974
 lifecycle_stage: active
 name: Default
